@@ -23,6 +23,7 @@ For debugging a Pico using another Pico, please:
 Rust-based tools for deploying the firmware:
 
 ```sh
+cargo install elf2uf2-rs --locked
 cargo install probe-run
 cargo install probe-rs-cli
 cargo install cargo-embed
