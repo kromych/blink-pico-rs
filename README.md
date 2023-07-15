@@ -20,6 +20,9 @@ For debugging a Pico using another Pico, please:
   The former requires building a custom OpenOCD, and the latter can work with the mainstream debugging tools.
   Here, CMSIS-DAP is assumed, [the CMSIS-DAP Picoprobe](https://github.com/raspberrypi/picoprobe/releases).
 
+The [Pico Debug Probe](https://www.raspberrypi.com/documentation/microcontrollers/debug-probe.html) is a
+RP2040-based debug probe for the Pico.
+
 Rust-based tools for deploying the firmware:
 
 ```sh
